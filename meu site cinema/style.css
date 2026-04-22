@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0b0b0f;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  border-bottom: 1px solid #333;
+}
+
+.tag {
+  color: gold;
+  font-weight: bold;
+}
+
+.subtitulo {
+  color: #bbb;
+}
+
+.menu {
+  display: flex;
+  gap: 15px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: 1px solid #444;
+}
+
+.menu a:hover,
+.ativo {
+  border-color: gold;
+  color: gold;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.hero {
+  margin-bottom: 40px;
+}
+
+.hero h2 {
+  margin-bottom: 10px;
+}
+
+.botao {
+  margin-top: 15px;
+  padding: 12px 18px;
+  background: gold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: #15151c;
+  width: 280px;
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.card h3 {
+  padding: 20px;
+}
+
+.form-area {
+  max-width: 600px;
+  margin: auto;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #1b1b25;
+  color: white;
+}
+
+.mensagem-magica {
+  margin-top: 15px;
+  color: gold;
+}
+
+.rodape {
+  text-align: center;
+  padding: 30px;
+  color: #aaa;
+}
